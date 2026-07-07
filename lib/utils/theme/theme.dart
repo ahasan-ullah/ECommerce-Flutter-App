@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/utils/theme/custom_themes/appbar_theme.dart';
 import 'package:ecommerce_app/utils/theme/custom_themes/bottom_sheet_theme.dart';
 import 'package:ecommerce_app/utils/theme/custom_themes/checkbox_theme.dart';
 import 'package:ecommerce_app/utils/theme/custom_themes/chip_theme.dart';
@@ -16,9 +17,9 @@ class TAppTheme {
     brightness: Brightness.light,
     primaryColor: Colors.blue,
     textTheme: TTextTheme.lightTextTheme,
-    chipTheme: TCheapTheme.lightCheapTheme,
+    chipTheme: TChipTheme.lightChipTheme,
     scaffoldBackgroundColor: Colors.white,
-    appBarTheme: TAppTheme.lightTheme,
+    appBarTheme: TAppBarTheme.lightAppBarTheme,
     checkboxTheme: TCheckBoxTheme.lightCheckBoxTheme,
     bottomSheetTheme: TBottomSheetTheme.lightBottomSheetTheme,
     elevatedButtonTheme: TElevatedButtonTheme.lightElevatedButtonTheme,
@@ -31,9 +32,9 @@ class TAppTheme {
     brightness: Brightness.dark,
     primaryColor: Colors.blue,
     textTheme: TTextTheme.darkTextTheme,
-    chipTheme: TCheapTheme.darkCheapTheme,
+    chipTheme: TChipTheme.darkChipTheme,
     scaffoldBackgroundColor: Colors.black,
-    appBarTheme: TAppTheme.darkTheme,
+    appBarTheme: TAppBarTheme.darkAppBarTheme,
     checkboxTheme: TCheckBoxTheme.darkCheckBoxTheme,
     bottomSheetTheme: TBottomSheetTheme.darkBottomSheetTheme,
     elevatedButtonTheme: TElevatedButtonTheme.darkElevatedButtonTheme,
